@@ -1,0 +1,22 @@
+#ovendrive
+import car
+import os
+
+
+while True:
+    os.system('clear')
+    key = input("What would you like to do?")
+    if key == 'w':
+        car.forward()
+
+        if key == "a":
+        car.left(0.395)
+    if key == 's':
+        car.reverse()
+    if key == 'd':
+        car.right(0.395)
+    if key == "aa":
+        car.left(0.79)
+    if key == 'dd':
+        car.right(0.79)
+    
